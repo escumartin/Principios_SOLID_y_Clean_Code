@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec <<< FAILURE!
+CalculatorTest.testAbs_test()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at CalculatorTest.testAbs_test(CalculatorTest.java:48)
+
+CalculatorTest.testMultiplay()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at CalculatorTest.testMultiplay(CalculatorTest.java:21)
+
+CalculatorTest.testPositiveAbs()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at CalculatorTest.testPositiveAbs(CalculatorTest.java:38)
+
+CalculatorTest.testNegativeAbs()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at CalculatorTest.testNegativeAbs(CalculatorTest.java:43)
+
+CalculatorTest.testDivision()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at CalculatorTest.testDivision(CalculatorTest.java:26)
+
+CalculatorTest.testInvalidDivision()  Time elapsed: 0.015 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.martin.DivisionByZeroException> but was: <java.lang.NullPointerException>
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:65)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3007)
+	at CalculatorTest.testInvalidDivision(CalculatorTest.java:31)
+Caused by: java.lang.NullPointerException
+	at CalculatorTest.lambda$testInvalidDivision$0(CalculatorTest.java:32)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:55)
+	... 21 more
+

@@ -27,6 +27,6 @@ public class Calculadora {
     }
 
     public Double abs_test(Double number) {
-        return Math.acos(number);
+        return Math.abs(number);
     }
 }
