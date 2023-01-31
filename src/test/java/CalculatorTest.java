@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
-public class CalculatorTest {
+class CalculatorTest {
 
     private Calculadora calculadora;
 
@@ -17,34 +17,34 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testMultiplay() {
+    void testMultiplay() {
         assertEquals(4.6, calculadora.multiply(2.0, 2.3));
     }
 
     @Test
-    public void testDivision() {
+    void testDivision() {
         assertEquals(3.0, calculadora.divide(6.0, 2.0));
     }
 
     @Test
-    public void testInvalidDivision() {
+    void testInvalidDivision() {
         assertThrows(DivisionByZeroException.class, () -> {
             calculadora.divide(6.0, 0.0);
         });
     }
 
     @Test
-    public void testPositiveAbs () {
-        assertEquals(calculadora.abs(3.0), 3.0);
+    void testPositiveAbs () {
+        assertEquals(3.0, calculadora.abs(3.0));
     }
 
     @Test
-    public void testNegativeAbs() {
-        assertEquals(calculadora.abs(-3.0), 3);
+    void testNegativeAbs() {
+        assertEquals(3, calculadora.abs(-3.0));
     }
 
     @Test
-    public void testAbs_test() {
-        assertEquals(calculadora.abs_test(-6.0), 6.0);
+    void testAbs_test() {
+        assertEquals(6.0, calculadora.abs_test(-6.0));
     }
 }

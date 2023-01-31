@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc770645-2fcf-4457-89f8-4a54cc7aefa0" name="Changes" comment="Finished course exercise TDD" />
+    <list default="true" id="dc770645-2fcf-4457-89f8-4a54cc7aefa0" name="Changes" comment="Finished course exercise TDD">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/martin/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/martin/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/martin/Calculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/martin/Calculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CalculatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/CalculatorTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CalculatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-CalculatorTest.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
